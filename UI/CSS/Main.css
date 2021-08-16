@@ -1,0 +1,22 @@
+﻿body {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.UpperCase {
+    text-transform: uppercase;
+}
+
+.MainClass {
+    margin: 0 auto;
+    padding: 8px;
+}
+
+ul {
+    padding: 8px;
+}
+
+li {
+    padding: 8px;
+}
+

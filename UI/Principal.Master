@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="UI.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="/CSS/Main.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="sm1" runat="server">
+        </asp:ScriptManager>
+        <div class="MainClass">
+            <ul style="list-style: none; display: flex;">
+                <li>
+                    <p><b><a href="Inicio.aspx">Inicio</a></b></p>
+                </li>
+                <li>
+                    <p><b><a href="CapturaDeProspecto.aspx">Captura de Prospecto</a></b></p>
+                </li>
+                <li>
+                    <p><b><a href="ListadoDeProspectos.aspx">Listado de Prospectos</a></b></p>
+                </li>
+                <li>
+                    <p><b><a href="EvaluacionDelProspecto.aspx">Evaluación del Prospecto</a></b></p>
+                </li>
+            </ul>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
